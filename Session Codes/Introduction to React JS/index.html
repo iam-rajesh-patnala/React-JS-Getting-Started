@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script crossorigin src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to React JS</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- Using javaScript  -->
+  <!-- <script type="text/javascript">
+    const rootElement = document.getElementById('root');
+
+    const headingElement = document.createElement('h1');
+    headingElement.textContent = 'Hello World';
+    headingElement.classList.add("greetings");
+    rootElement.appendChild(headingElement);
+  </script> -->
+
+  <!-- Using React -->
+  <!-- <script type="module">
+    const rootElement = document.getElementById('root');
+
+    const elementProps = {
+      className: "greetings",
+      children: "Hello World!"
+    };
+    const elementTag = "h1";
+    const headingElement = React.createElement(elementTag, elementProps);
+    ReactDOM.render(headingElement, rootElement);
+  </script> -->
+
+  <!-- Using JSX  -->
+  <!-- <script type="text/babel">
+    const rootElement = document.getElementById("root");
+    const name = "Rajesh";
+    const className = "greetings";
+
+    // Using Expression 
+    const fullName = user => user.firstName + " " + user.lastName;
+    const user = {firstName: "Rajesh", lastName: "Patnala"}
+
+    const element = (
+      <div>
+        <h1 className={className}>{fullName(user)}</h1>
+        <p className="paragraph">Good to see you here</p>
+      </div>
+    );
+
+    ReactDOM.render(element, rootElement);
+  </script> -->
+
+  <script type="text/babel" src="./script.jsx"></script>
+
+</body>
+
+</html>
