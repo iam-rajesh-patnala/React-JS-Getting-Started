@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.greeting{
+  text-align: center;
+  color: dodgerblue;
+  font-size: xx-large;
+}
