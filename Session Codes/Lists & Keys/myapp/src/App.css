@@ -1,0 +1,21 @@
+.list-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #183b56;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.users-cards-container{
+    background-color: #9d35ffc0;
+    padding: 30px;
+    border-radius: 8px;
+}
