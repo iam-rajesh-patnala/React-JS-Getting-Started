@@ -7,13 +7,13 @@ class ClickCounter extends Component{
   }
 
   onCount = () => {
+    
+    // Using callback function as argument------------
+    this.setState(prevState => ({ count: prevState.count + 1 }))
+    
+
     // Using object as argument-------------
     // this.setState({count : this.state.count + 1})
-
-    // Using callback function as argument------------
-    this.setState((prevState) => {
-      return {count: prevState.count + 1}
-    })
   }
 
 
@@ -24,7 +24,7 @@ class ClickCounter extends Component{
         <div className='content'>
           <h1 className='heading'>The Button has been clicked <span>{count}</span> times</h1>
           <p className='description'>Click the button to increase the count!</p>
-          <button className='button' onClick={this.onCount} >Click Me!</button>
+          <button type ="button" className='button' onClick={this.onCount} >Click Me!</button>
         </div>
       </div>
     )
