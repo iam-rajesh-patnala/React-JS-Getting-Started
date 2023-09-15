@@ -1,0 +1,21 @@
+.destination-item{
+  list-style-type: none;
+  width: 235px;
+  margin: 0 15px 32px 15px;
+}
+
+.destination-image{
+  width: 235px;
+  height: 175px;
+}
+
+.destination-name{
+  color: #000000;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+  .destination-name{
+    font-size: 20px;
+  }
+}
