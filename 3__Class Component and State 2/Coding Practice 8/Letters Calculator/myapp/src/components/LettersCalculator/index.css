@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body{
+  margin: 0;
+}
+
+.bg-container{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letters-calculate-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+  .letters-calculate-container{
+    flex-direction: row;
+  }
+}
+
+.calculator-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .calculator-container{
+    align-items: flex-start;
+    order: 0;
+  }
+}
+
+.calculator-image{
+  width: 100%;
+  order: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .calculator-image{
+    width: 550px;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .calculator-image{
+    width: 700px;
+  }
+}
+
+.heading{
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .heading{
+    font-size: 46px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .heading{
+    text-align: start;
+    font-size: 46px;
+  }
+}
+
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.input{
+  border: 1px solid #e4e7eb;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  outline: none;
+  caret-color: #ffffff;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .input{
+    width: 350px;
+  }
+}
+
+.input::placeholder{
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.result{
+  background-color: #ffffff;
+  color: #219a6f;
+  align-self: center;
+  padding: 18px 24px;
+  margin-top: 32px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .result{
+    align-self: start;
+    padding: 24px 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .result{
+    padding: 30px 38px;
+  }
+  
+}
