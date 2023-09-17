@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 16px;
+}
+
+.suggestion {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion {
+    font-size: 20px;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow {
+    width: 24px;
+    height: 24px;
+  } 
+}

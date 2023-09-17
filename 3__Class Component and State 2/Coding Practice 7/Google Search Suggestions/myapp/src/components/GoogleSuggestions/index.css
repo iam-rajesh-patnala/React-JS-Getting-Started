@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+}
+
+::placeholder{
+  font-weight: 500;
+  font-size: 16px;
+}
+.app-background-container {
+  display: flex;
+  justify-content: center;
+}
+
+.google-suggestions-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-suggestions-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+  }
+}
+
+.google-logo {
+  width: 150px;
+  height: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-logo{
+    width: 432px;
+    height: 140px;
+  }
+}
+
+.search-container {
+  width: 300px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 48px;
+  }
+}
+
+.search-box{
+  display: flex;
+  align-items: center;
+  padding: 4px 8px ;
+}
+
+@media screen and (min-width: 768px) {
+  .search-box{
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+  }
+}
+
+.search-icon {
+  height: 16px;
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon{
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.search-input{
+  margin-left: 16px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #64748b;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input{
+    font-size: 20px;
+    height: 40px;
+    margin-left: 8px;
+  }
+}
+
+.suggestion-list{
+  padding: 0 16px 12px 12px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-list{
+    padding: 0 32px 24px 24px;
+  }
+}
