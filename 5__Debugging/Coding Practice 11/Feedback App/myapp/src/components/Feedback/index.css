@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card{
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 606px;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-card{
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .feedback-card{
+    padding: 64px;
+  }
+}
+  
+.feedback-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-heading{
+  text-align: center;
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-heading{
+    font-size: 32px;
+  }
+}
+
+.emoji-list{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 32px;
+  padding: 0px;
+}
+
+.emoji-btn{
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji-img{
+  width: 45px;
+  height: 45px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-img{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.emoji-name{
+  color: #1e293b;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-name{
+    font-size: 18px;
+  }
+}
+
+.thank-you-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.love-emoji-img{
+  width: 60px;
+  height: 54px;
+}
+
+.thank-you-heading{
+  text-align: center;
+  color: #0f172a;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.thank-you-para{
+  text-align: center;
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: normal;
+}
