@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container{
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container{
+  background-color: #f8fafc;
+  padding: 20px;
+  width: 96%;
+  max-width: 345px;
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px){
+  .card-container{
+    padding: 44px 64px 0 64px;
+    max-width: 520px;
+  }
+}
+
+.heading{
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width : 768px) {
+  .heading{
+    text-align: left;
+    font-size: 32px;
+  }
+}
+
+.question-container{
+  display: flex;
+  align-items: center;
+}
+
+.capital-select{
+  background-color: #f8fafc;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding: 4px 0 4px 8px;
+  outline: none;
+}
+
+@media screen and (min-width : 768px){
+  .capital-select{
+    padding: 8px 0 8px 16px;
+    width: 180px;
+    font-size: 16px;
+  }
+}
+
+.option{
+  color: #323f4b;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width : 768px) {
+  .option{
+    font-size: 14px;
+  }
+}
+
+.question{
+  color: #000000;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width:768px) {
+  .question{
+    font-size: 16px;
+  }
+}
+
+.country{
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width:768px) {
+  .country{
+    font-size: 24px;
+  }
+}
