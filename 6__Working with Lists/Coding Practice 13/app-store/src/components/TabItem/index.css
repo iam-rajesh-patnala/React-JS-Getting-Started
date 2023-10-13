@@ -1,0 +1,36 @@
+.tab-item{
+  list-style-type: none;
+}
+
+.tab-button{
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid #dfe2e5;
+  padding: 0 16px 4px 16px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media screen and (min-width:768px) {
+  .tab-button{
+    font-size: 16px;
+    padding: 0 26px 8px 26px;
+  } 
+}
+
+.active{
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 8px;
+  transition: ease-in 200ms;
+}
+
+@media screen and (min-width:768px) {
+  .active{
+    padding-bottom: 12px;
+  }
+}
