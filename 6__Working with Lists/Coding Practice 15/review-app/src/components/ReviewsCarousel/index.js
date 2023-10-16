@@ -57,14 +57,14 @@ class ReviewsCarousel extends Component {
                 className='arrow-button'
                 type='button'
                 onClick={this.onClickLeftArrow}
-                testid='leftArrow'>
+                data-testid='leftArrow'>
                 <img src={leftArrow} alt='left arrow' />
               </button>
               {this.renderActiveReview(currentReviewDetails)}
               <button className='arrow-button'
                 type='button'
                 onClick={this.onClickRightArrow}
-                testid='rightArrow'>
+                data-testid='rightArrow'>
                 <img src={rightArrow} alt='right arrow' />
               </button>
             </div>
